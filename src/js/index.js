@@ -1,9 +1,9 @@
 //import react into the bundle
 import React from "react";
 import ReactDOM from "react-dom/client";
-
+import { TrafficLight } from "./TrafficLight.jsx";
 // include your styles into the webpack bundle
-import "../styles/index.css";
+import "../styles/TrafficLight.css";
 
 //import your own components
 import Home from "./component/home.jsx";
